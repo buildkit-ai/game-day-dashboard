@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "shipp-dashboard"
+name = "game-day-dashboard"
 version = "0.1.0"
 description = "Full-screen live sports scoreboard tracking NBA, MLB, and Soccer games"
 readme = "README.md"
@@ -21,4 +21,4 @@ Homepage = "https://github.com/buildkit-ai/game-day-dashboard"
 Repository = "https://github.com/buildkit-ai/game-day-dashboard"
 
 [tool.hatch.build.targets.wheel]
-packages = ["shipp_dashboard"]
+packages = ["game_day_dashboard"]
