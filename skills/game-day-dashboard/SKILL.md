@@ -7,8 +7,8 @@ description: >-
   Triggers: live scores, scoreboard, game day, sports dashboard, play-by-play, watch party,
   live sports, TV scoreboard, multi-game tracker, real-time scoreboard, game day setup,
   live ticker.
-author: sports-agent-tools
-repository: https://github.com/sports-agent-tools/game-day-dashboard
+author: buildkit-ai
+repository: https://github.com/buildkit-ai/game-day-dashboard
 license: MIT
 ---
 
