@@ -26,7 +26,6 @@ SPORT_STYLES = {"nba": "bright_red", "mlb": "bright_blue", "soccer": "bright_gre
 
 def main():
     console.print("\n[bold cyan]Game Day Dashboard[/bold cyan]")
-    console.print("[dim]Connecting to Shipp.ai...[/dim]\n")
 
     try:
         manager = ShippManager()
@@ -180,7 +179,6 @@ def main():
     panel = Panel(
         content,
         title="[bold white]LIVE[/bold white]",
-        subtitle="[dim]Powered by Shipp.ai[/dim]",
         border_style="bright_cyan",
         expand=True,
     )

@@ -509,7 +509,6 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   </div>
 
   <div class="footer">
-    Powered by <a href="https://shipp.ai" target="_blank">Shipp.ai</a> &middot;
     Auto-updates every 5s &middot;
     Poll #<span id="poll-count">0</span>
   </div>

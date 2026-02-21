@@ -377,7 +377,6 @@ def run_dashboard(
             "\nSet your API key: export SHIPP_API_KEY='your-key-here'"
         )
         console.print(
-            "Get a free key at: https://platform.shipp.ai\n"
         )
         sys.exit(1)
 

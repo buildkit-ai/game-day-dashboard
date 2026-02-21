@@ -256,7 +256,6 @@ class ShippManager:
         if not self.api_key:
             raise ValueError(
                 "SHIPP_API_KEY is required. Set it as an environment variable "
-                "or pass it directly. Get a free key at platform.shipp.ai"
             )
         self.connections: dict[str, ShippConnection] = {}
         self.session = requests.Session()

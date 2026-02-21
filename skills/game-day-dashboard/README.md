@@ -60,8 +60,6 @@ pip install rich requests
 
 ### 2. Set your API key
 
-Requires a Shipp.ai API key for real-time scores -- get 5,000 free credits/day at [platform.shipp.ai](https://platform.shipp.ai).
-
 ```bash
 export SHIPP_API_KEY="your-api-key-here"
 ```
@@ -119,7 +117,3 @@ python scripts/dashboard.py --live-only
 ## License
 
 MIT
-
----
-
-<sub>Powered by [Shipp.ai](https://shipp.ai) real-time sports data</sub>
